@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 read -p "年齢を入力してください。" age
 if [ $age -le 15 ]; then
     echo 料金は800円です。
